@@ -57,6 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ICM_SCK4_Pin GPIO_PIN_2
+#define ICM_SCK4_GPIO_Port GPIOE
+#define ICM_MISO4_Pin GPIO_PIN_5
+#define ICM_MISO4_GPIO_Port GPIOE
+#define ICM_MOSI4_Pin GPIO_PIN_6
+#define ICM_MOSI4_GPIO_Port GPIOE
+#define Mouse_MOSI2_Pin GPIO_PIN_1
+#define Mouse_MOSI2_GPIO_Port GPIOC
+#define Mouse_MISO2_Pin GPIO_PIN_2
+#define Mouse_MISO2_GPIO_Port GPIOC
 #define Motor2_ChA_Pin GPIO_PIN_0
 #define Motor2_ChA_GPIO_Port GPIOA
 #define Motor2_ChB_Pin GPIO_PIN_1
@@ -73,14 +83,28 @@ void Error_Handler(void);
 #define Motor3_ChA_GPIO_Port GPIOA
 #define Motor3_ChB_Pin GPIO_PIN_7
 #define Motor3_ChB_GPIO_Port GPIOA
+#define ADC_Battery_Pin GPIO_PIN_0
+#define ADC_Battery_GPIO_Port GPIOB
 #define Motor1_ChA_Pin GPIO_PIN_9
 #define Motor1_ChA_GPIO_Port GPIOE
 #define Motor1_ChB_Pin GPIO_PIN_11
 #define Motor1_ChB_GPIO_Port GPIOE
+#define Mouse_SCK2_Pin GPIO_PIN_10
+#define Mouse_SCK2_GPIO_Port GPIOB
+#define Fan_PWM_Pin GPIO_PIN_14
+#define Fan_PWM_GPIO_Port GPIOB
 #define Motor4_ChA_Pin GPIO_PIN_12
 #define Motor4_ChA_GPIO_Port GPIOD
 #define Motor4_ChB_Pin GPIO_PIN_13
 #define Motor4_ChB_GPIO_Port GPIOD
+#define Motor1_PWM_Pin GPIO_PIN_6
+#define Motor1_PWM_GPIO_Port GPIOC
+#define Motor2_PWM_Pin GPIO_PIN_7
+#define Motor2_PWM_GPIO_Port GPIOC
+#define Motor3_PWM_Pin GPIO_PIN_8
+#define Motor3_PWM_GPIO_Port GPIOC
+#define Motor4_PWM_Pin GPIO_PIN_9
+#define Motor4_PWM_GPIO_Port GPIOC
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
