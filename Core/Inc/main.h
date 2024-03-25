@@ -57,6 +57,36 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Motor2_ChA_Pin GPIO_PIN_0
+#define Motor2_ChA_GPIO_Port GPIOA
+#define Motor2_ChB_Pin GPIO_PIN_1
+#define Motor2_ChB_GPIO_Port GPIOA
+#define Motor1_Curr_Pin GPIO_PIN_2
+#define Motor1_Curr_GPIO_Port GPIOA
+#define Motor2_Curr_Pin GPIO_PIN_3
+#define Motor2_Curr_GPIO_Port GPIOA
+#define Motor3_Curr_Pin GPIO_PIN_4
+#define Motor3_Curr_GPIO_Port GPIOA
+#define Motor4_Curr_Pin GPIO_PIN_5
+#define Motor4_Curr_GPIO_Port GPIOA
+#define Motor3_ChA_Pin GPIO_PIN_6
+#define Motor3_ChA_GPIO_Port GPIOA
+#define Motor3_ChB_Pin GPIO_PIN_7
+#define Motor3_ChB_GPIO_Port GPIOA
+#define Motor1_ChA_Pin GPIO_PIN_9
+#define Motor1_ChA_GPIO_Port GPIOE
+#define Motor1_ChB_Pin GPIO_PIN_11
+#define Motor1_ChB_GPIO_Port GPIOE
+#define Motor4_ChA_Pin GPIO_PIN_12
+#define Motor4_ChA_GPIO_Port GPIOD
+#define Motor4_ChB_Pin GPIO_PIN_13
+#define Motor4_ChB_GPIO_Port GPIOD
+#define SWDIO_Pin GPIO_PIN_13
+#define SWDIO_GPIO_Port GPIOA
+#define SWCLK_Pin GPIO_PIN_14
+#define SWCLK_GPIO_Port GPIOA
+#define SWO_Pin GPIO_PIN_3
+#define SWO_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
