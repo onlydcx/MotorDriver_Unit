@@ -365,7 +365,7 @@ void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA0/WKUP     ------> TIM2_CH1
     PA1     ------> TIM2_CH2
     */
-    GPIO_InitStruct.Pin = Motor2_ChA_Pin|Motor2_ChB_Pin;
+    GPIO_InitStruct.Pin = Motor2_EncA_Pin|Motor2_EncB_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -389,7 +389,7 @@ void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA6     ------> TIM3_CH1
     PA7     ------> TIM3_CH2
     */
-    GPIO_InitStruct.Pin = Motor3_ChA_Pin|Motor3_ChB_Pin;
+    GPIO_InitStruct.Pin = Motor3_EncA_Pin|Motor3_EncB_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -536,7 +536,7 @@ void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA0/WKUP     ------> TIM2_CH1
     PA1     ------> TIM2_CH2
     */
-    HAL_GPIO_DeInit(GPIOA, Motor2_ChA_Pin|Motor2_ChB_Pin);
+    HAL_GPIO_DeInit(GPIOA, Motor2_EncA_Pin|Motor2_EncB_Pin);
 
   /* USER CODE BEGIN TIM2_MspDeInit 1 */
 
@@ -554,7 +554,7 @@ void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef* tim_encoderHandle)
     PA6     ------> TIM3_CH1
     PA7     ------> TIM3_CH2
     */
-    HAL_GPIO_DeInit(GPIOA, Motor3_ChA_Pin|Motor3_ChB_Pin);
+    HAL_GPIO_DeInit(GPIOA, Motor3_EncA_Pin|Motor3_EncB_Pin);
 
   /* USER CODE BEGIN TIM3_MspDeInit 1 */
 
