@@ -413,7 +413,7 @@ void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef* tim_encoderHandle)
     PD12     ------> TIM4_CH1
     PD13     ------> TIM4_CH2
     */
-    GPIO_InitStruct.Pin = Motor4_ChA_Pin|Motor4_ChB_Pin;
+    GPIO_InitStruct.Pin = Motor4_EncA_Pin|Motor4_EncB_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -572,7 +572,7 @@ void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef* tim_encoderHandle)
     PD12     ------> TIM4_CH1
     PD13     ------> TIM4_CH2
     */
-    HAL_GPIO_DeInit(GPIOD, Motor4_ChA_Pin|Motor4_ChB_Pin);
+    HAL_GPIO_DeInit(GPIOD, Motor4_EncA_Pin|Motor4_EncB_Pin);
 
   /* USER CODE BEGIN TIM4_MspDeInit 1 */
 
