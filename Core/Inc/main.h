@@ -93,6 +93,14 @@ void Error_Handler(void);
 #define Mouse_SCK2_GPIO_Port GPIOB
 #define Fan_PWM_Pin GPIO_PIN_14
 #define Fan_PWM_GPIO_Port GPIOB
+#define Motor4_Dir_Pin GPIO_PIN_15
+#define Motor4_Dir_GPIO_Port GPIOB
+#define Motor3_DIR_Pin GPIO_PIN_8
+#define Motor3_DIR_GPIO_Port GPIOD
+#define Motor2_DIR_Pin GPIO_PIN_9
+#define Motor2_DIR_GPIO_Port GPIOD
+#define Motor1_DIR_Pin GPIO_PIN_10
+#define Motor1_DIR_GPIO_Port GPIOD
 #define Motor4_EncA_Pin GPIO_PIN_12
 #define Motor4_EncA_GPIO_Port GPIOD
 #define Motor4_EncB_Pin GPIO_PIN_13
