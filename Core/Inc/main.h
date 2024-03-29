@@ -125,6 +125,10 @@ void Error_Handler(void);
 #define Motor3_PWM_GPIO_Port GPIOC
 #define Motor4_PWM_Pin GPIO_PIN_9
 #define Motor4_PWM_GPIO_Port GPIOC
+#define VCP_RX4_Pin GPIO_PIN_11
+#define VCP_RX4_GPIO_Port GPIOA
+#define VCP_TX4_Pin GPIO_PIN_12
+#define VCP_TX4_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
