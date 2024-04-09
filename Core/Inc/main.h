@@ -89,6 +89,10 @@ void Error_Handler(void);
 #define Motor3_EncB_GPIO_Port GPIOA
 #define ADC_Battery_Pin GPIO_PIN_0
 #define ADC_Battery_GPIO_Port GPIOB
+#define MCU_RX7_Pin GPIO_PIN_7
+#define MCU_RX7_GPIO_Port GPIOE
+#define MCU_TX7_Pin GPIO_PIN_8
+#define MCU_TX7_GPIO_Port GPIOE
 #define Motor1_ChA_Pin GPIO_PIN_9
 #define Motor1_ChA_GPIO_Port GPIOE
 #define Motor1_ChB_Pin GPIO_PIN_11
